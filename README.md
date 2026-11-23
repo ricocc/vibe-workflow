@@ -1,6 +1,6 @@
 # Vibe Workflow
 
-[Chinese guide](README.zh-CN.md)
+[中文指南](README.zh-CN.md)
 
 **Vibe Workflow is a Vibe Coding workflow for websites and web apps.** It helps you turn design rules, development conventions, and acceptance criteria into docs your AI assistant can follow. When you add features, fix bugs, or review changes, the assistant uses those same rules and reports the evidence behind its results.
 
@@ -23,13 +23,13 @@ If your AI assistant can read project files, give it access to the workflow fold
 
 ## Installation
 
-From your project directory, run the following command with Node.js 22.20 or newer. Select your AI tool when prompted. Add `-g` to install for your user account across projects. [Skills CLI documentation](https://github.com/vercel-labs/skills)
+From your project directory, run the following command with Node.js 22.20 or newer. Select your AI tool when prompted. Add `-g` to install for your user account across projects.
 
 ```sh
 npx skills add ricocc/vibe-workflow --skill vibe-workflow
 ```
 
-For a manual installation, download or clone the repository and copy the entire [skill folder](skills/vibe-workflow/) into the skills directory your tool reads. Keep `SKILL.md`, `agents/`, and `references/` together. For Codex, the destination is `.agents/skills/vibe-workflow/` in your project or home directory. [Codex skill discovery](https://learn.chatgpt.com/docs/build-skills#where-codex-loads-local-skills)
+For a manual installation, download or clone the repository and copy the entire [skill folder](skills/vibe-workflow/) into the skills directory your tool reads. Keep `SKILL.md`, `agents/`, and `references/` together. For Codex, the destination is `.agents/skills/vibe-workflow/` in your project or home directory.
 
 ### Invoke the Skill
 

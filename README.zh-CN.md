@@ -23,13 +23,13 @@
 
 ## 安装
 
-在项目目录运行下面的命令，需要 Node.js 22.20 或更新版本。按提示选择你使用的 AI 工具。如果希望在多个项目中使用，在命令末尾加 `-g`，安装到当前用户的全局目录。 [Skills CLI 文档](https://github.com/vercel-labs/skills)
+在项目目录运行下面的命令，需要 Node.js 22.20 或更新版本。按提示选择你使用的 AI 工具。如果希望在多个项目中使用，在命令末尾加 `-g`，安装到当前用户的全局目录。
 
 ```sh
 npx skills add ricocc/vibe-workflow --skill vibe-workflow
 ```
 
-也可以下载或克隆仓库，把整个 [技能目录](skills/vibe-workflow/) 复制到所用工具的技能目录，保留其中的 `SKILL.md`、`agents/` 和 `references/`。以 Codex 为例，复制到项目或用户主目录下的 `.agents/skills/vibe-workflow/`。 [Codex 技能目录说明](https://learn.chatgpt.com/docs/build-skills#where-codex-loads-local-skills)
+也可以下载或克隆仓库，把整个 [技能目录](skills/vibe-workflow/) 复制到所用工具的技能目录，保留其中的 `SKILL.md`、`agents/` 和 `references/`。以 Codex 为例，复制到项目或用户主目录下的 `.agents/skills/vibe-workflow/`。
 
 ### 调用技能
 
