@@ -1,0 +1,6 @@
+interface:
+  display_name: "Vibe Workflow"
+  short_description: "Vibe Coding workflow for websites and web apps"
+  default_prompt: "$vibe-workflow"
+policy:
+  allow_implicit_invocation: false
