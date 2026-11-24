@@ -47,15 +47,27 @@ In Codex, the first prompt runs `init` to organize project docs. The next two se
 
 ## Project Docs
 
-### Choose Templates for the Project
+### Choose Templates for the Task
 
 ```text
 Use Vibe Workflow to initialize the development docs for this new website.
 ```
 
-**For a new project, start with the decisions you need for the current work.** Share the site's purpose, audience, primary visitor action, and any confirmed decisions. A landing page might need an `AGENTS.md` for working agreements and a short `DESIGN.md` for layout and styling. Pick another template when a feature needs its own acceptance criteria or a real deployment process needs documenting. Record open decisions for later. Initialization stops after preparing the docs.
+**The agent reads only the templates needed for the project and the current task.** A landing page might use `AGENTS.md` for working agreements and a short `DESIGN.md` for confirmed layout and styling. Initialization stops once the docs are ready.
 
-**For an existing project, start with what is already documented.** Keep startup and test commands in the README if they already live there. Keep tracking tasks in GitHub Issues if that is what the project uses. Read a template when it helps fill a specific gap. [Project docs and template catalog](skills/vibe-workflow/references/project-docs.md#template-catalog)
+**For existing projects, reuse the docs and tracker already in use.** Keep setup and test commands in the README if they already live there. Keep tracking work in GitHub Issues if that is what the project uses. Use the table to pick a template when a new document would help. [Default document paths](skills/vibe-workflow/references/project-docs.md#template-catalog)
+
+| Template | When to use it |
+| --- | --- |
+| [`AGENTS.md`](skills/vibe-workflow/references/templates/AGENTS.md) | Project documentation index and working instructions |
+| [`DESIGN.md`](skills/vibe-workflow/references/templates/DESIGN.md) | Design rules and visual acceptance criteria |
+| [`PROJECT-SPEC.md`](skills/vibe-workflow/references/templates/PROJECT-SPEC.md) | Audience, scope, and completion criteria |
+| [`DEVELOPMENT.md`](skills/vibe-workflow/references/templates/DEVELOPMENT.md) | Setup, development commands, and verification steps |
+| [`TODO.md`](skills/vibe-workflow/references/templates/TODO.md) | Task status and progress |
+| [`ARCHITECTURE.md`](skills/vibe-workflow/references/templates/ARCHITECTURE.md) | System structure and relationships between modules |
+| [`DEPLOYMENT.md`](skills/vibe-workflow/references/templates/DEPLOYMENT.md) | Deployment process and steps |
+| [`FEATURE-SPEC.md`](skills/vibe-workflow/references/templates/FEATURE-SPEC.md) | User flow and acceptance criteria for a single feature |
+| [`PLAN.md`](skills/vibe-workflow/references/templates/PLAN.md) | Planning and implementation steps |
 
 ### Continue Development
 

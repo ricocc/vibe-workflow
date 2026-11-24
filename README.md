@@ -47,15 +47,27 @@ $vibe-workflow review
 
 ## 项目文档
 
-### 按项目需要选模板
+### 项目需要哪些文档，就用哪些模板
 
 ```text
 按 Vibe Workflow 初始化这个新网站的开发文档。
 ```
 
-**新项目先看这次要定哪些约定。** 提供网站目标、目标用户、访客的主要操作和已经确认的决定。比如做一个落地页，可以用 `AGENTS.md` 写清开发约定，用一份简短的 `DESIGN.md` 记下布局和样式。以后遇到需要单独写验收标准的功能，或已有部署步骤需要记录，再选对应的模板。未确定的决定可以先记为待定，初始化在文档整理完成后结束。
+**Agent 根据项目现状和这次任务，只读取需要用到的模板。** 比如先做一个落地页，可以用 `AGENTS.md` 写清开发约定，用简短的 `DESIGN.md` 记下已经确认的布局和样式。初始化在文档整理完成后结束。
 
-**已有项目先看规则写在哪。** 启动和测试命令已经记在 README 里，就继续用那份 README。待办已经放在 GitHub Issues 里，就在那里接着记。需要补哪份文档，再读哪份模板。 [文档目录和模板](skills/vibe-workflow/references/project-docs.md#template-catalog)
+**已有项目优先沿用现有文档和任务记录。** 启动和测试命令可以继续放在现有 README 里，待办可以继续由 GitHub Issues 跟踪。需要新增文档时，按下面的用途选模板。 [文档默认路径](skills/vibe-workflow/references/project-docs.md#template-catalog)
+
+| 模板 | 什么时候用 |
+| --- | --- |
+| [`AGENTS.md`](skills/vibe-workflow/references/templates/AGENTS.md) | 文档总览和指引 |
+| [`DESIGN.md`](skills/vibe-workflow/references/templates/DESIGN.md) | 设计规范与视觉验收 |
+| [`PROJECT-SPEC.md`](skills/vibe-workflow/references/templates/PROJECT-SPEC.md) | 服务对象、范围与完成标准 |
+| [`DEVELOPMENT.md`](skills/vibe-workflow/references/templates/DEVELOPMENT.md) | 启动方式、命令与验证步骤 |
+| [`TODO.md`](skills/vibe-workflow/references/templates/TODO.md) | 工作留痕与进度 |
+| [`ARCHITECTURE.md`](skills/vibe-workflow/references/templates/ARCHITECTURE.md) | 系统结构与模块关系 |
+| [`DEPLOYMENT.md`](skills/vibe-workflow/references/templates/DEPLOYMENT.md) | 部署流程与步骤 |
+| [`FEATURE-SPEC.md`](skills/vibe-workflow/references/templates/FEATURE-SPEC.md) | 单个功能的流程与验收 |
+| [`PLAN.md`](skills/vibe-workflow/references/templates/PLAN.md) | 规划、实施步骤 |
 
 ### 后续怎么继续开发
 
